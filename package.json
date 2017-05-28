@@ -1,6 +1,6 @@
 {
   "name": "@savvy-css/flex-utilities",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Flex utilities for Savvy CSS.",
   "main": "build/flex-utilities.css",
   "style": "build/flex-utilities.css",
