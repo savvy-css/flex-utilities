@@ -1,1 +1,96 @@
 /* @define flex-utilities */
+
+/**
+ * Flex container
+ */
+
+.u-flex { display: flex !important; }
+.u-inline-flex { display: inline-flex !important; }
+
+
+/**
+ * 1. Set the flex-shrink default explicitly to fix IE10 - http://git.io/vllC7
+ */
+
+/* postcss-bem-linter: ignore */
+
+.u-flex > *,
+.u-inline-flex > * {
+  flex-shrink: 1; /* 1 */
+}
+
+
+/**
+ * Direction: row
+ */
+
+.u-flex-row { flex-direction: row !important; }
+.u-flex-row-rev { flex-direction: row-reverse !important; }
+
+
+/**
+ * Direction: column
+ */
+
+.u-flex-col { flex-direction: column !important; }
+.u-flex-col-rev { flex-direction: column-reverse !important; }
+
+
+
+/**
+ * Wrap
+ */
+
+.u-flex-wrap { flex-wrap: wrap !important; }
+.u-flex-nowrap { flex-wrap: nowrap !important; }
+.u-flex-wrap-rev { flex-wrap: wrap-reverse !important; }
+
+
+/**
+ * Main-axis alignment of flex items in a flex container
+ */
+
+.u-flex-justify-start { justify-content: flex-start !important; }
+.u-flex-justify-end { justify-content: flex-end !important; }
+.u-flex-justify-center { justify-content: center !important; }
+.u-flex-justify-between { justify-content: space-between !important; }
+.u-flex-justify-around { justify-content: space-around !important; }
+
+
+/**
+ * Cross-axis alignment of flex items in a flex container
+ * Similar to `justify-content` but in the perpendicular direction
+ */
+
+.u-flex-align-items-start { align-items: flex-start !important; }
+.u-flex-align-items-end { align-items: flex-end !important; }
+.u-flex-align-items-center { align-items: center !important; }
+.u-flex-align-items-stretch { align-items: stretch !important; }
+.u-flex-align-items-baseline { align-items: baseline !important; }
+
+
+/**
+ * Aligns items within the flex container when there is extra
+ * space in the cross-axis
+ *
+ * Has no effect when there is only one line of flex items.
+ */
+
+.u-flex-align-content-start { align-content: flex-start !important; }
+.u-flex-align-content-end { align-content: flex-end !important; }
+.u-flex-align-content-center { align-content: center !important; }
+.u-flex-align-content-stretch { align-content: stretch !important; }
+.u-flex-align-content-between { align-content: space-between !important; }
+.u-flex-align-content-around { align-content: space-around !important; }
+
+
+/**
+ * Override default alignment of single item when specified by `align-items`
+ */
+
+.u-flex-align-self-start { align-self: flex-start !important; }
+.u-flex-align-self-end { align-self: flex-end !important; }
+.u-flex-align-self-center { align-self: center !important; }
+.u-flex-align-self-stretch { align-self: stretch !important; }
+.u-flex-align-self-baseline { align-self: baseline !important; }
+.u-flex-align-self-auto { align-self: auto !important; }
