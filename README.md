@@ -24,12 +24,12 @@ npm install --save-dev @savvy-css/flex-utilities
 ## Usage
 
 
-[npm-badge]: https://img.shields.io/npm/v/@savvy-css/@savvy-css/flex-utilities.svg
-[npm-badge-url]: https://www.npmjs.com/package/@savvy-css/@savvy-css/flex-utilities
-[license-badge]: https://img.shields.io/npm/l/@savvy-css/@savvy-css/flex-utilities.svg
+[npm-badge]: https://img.shields.io/npm/v/@savvy-css/flex-utilities.svg
+[npm-badge-url]: https://www.npmjs.com/package/@savvy-css/flex-utilities
+[license-badge]: https://img.shields.io/npm/l/@savvy-css/flex-utilities.svg
 [license-badge-url]: LICENSE
-[dependencies-badge]: https://img.shields.io/david/savvy-css/@savvy-css/flex-utilities.svg
-[dependencies-badge-url]: https://david-dm.org/savvy-css/@savvy-css/flex-utilities
-[devDependencies-badge]: https://img.shields.io/david/dev/savvy-css/@savvy-css/flex-utilities.svg
-[devDependencies-badge-url]: https://david-dm.org/savvy-css/@savvy-css/flex-utilities#info=devDependencies
+[dependencies-badge]: https://img.shields.io/david/savvy-css/flex-utilities.svg
+[dependencies-badge-url]: https://david-dm.org/savvy-css/flex-utilities
+[devDependencies-badge]: https://img.shields.io/david/dev/savvy-css/flex-utilities.svg
+[devDependencies-badge-url]: https://david-dm.org/savvy-css/flex-utilities#info=devDependencies
 
